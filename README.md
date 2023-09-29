@@ -1,11 +1,12 @@
-# npm run dev
+# Command lines
 For start project in development environment
+```npm run dev```
 
-# npm run build
 For start the build in Vite
+```npm run build```
 
-# npm test -- --coverage
 For run the unit tests and see the percentage of coverage
+```npm test -- --coverage```
 
 
 
