@@ -1,0 +1,23 @@
+.error-message {
+    font-size: 20px;
+}
+
+.full-width {
+    width: 100%;
+    margin: 6px 10px;
+}
+
+.container {
+    display: flex;
+}
+
+@media (max-width: 500px) {
+    .container {
+        flex-direction: column;
+    }
+    .full-width {
+        width: 100%;
+        margin: 6px auto;
+        padding: 0;
+    }
+}
